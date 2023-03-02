@@ -1,5 +1,7 @@
 package aula1.exemplos;
 
+import java.util.Scanner;
+
 public class introducao {
     public static void main(String[] args) {
         //comentario de uma linha
@@ -34,7 +36,30 @@ public class introducao {
        // numeros[8] = 8.5;
        char[] caracteres = "ola mundo".toCharArray();
        System.out.println(caracteres[0]);
-        }
+        
+        //variaveis constantes
+        int idade = 20;
+        int idade2;
+        //idade2 = 22;
+        //java 10 inferencia de tipo
+        //constante
+        final double TESTE = 10.2;
+        final var SOBRENOME = "flores";
+        // entrada e saida de dados
+        Scanner sc = new Scanner(System.in);
+        System.out.println("entre com seu nome");
+        String nomeDigitado = sc.nextLine();
+
+
+
+        
+    }
+
+
+
+
+ 
+
     }
     
 
