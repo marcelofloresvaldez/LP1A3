@@ -1,0 +1,18 @@
+package aula3.exemplos;
+
+public class Cliente {
+    private int codigo;
+    private String nome;
+    private String email;
+    private Endereco endereco;
+
+    
+    public Cliente( int codigo, String nome, String email, String cep, int numero, String complemento){
+        this.codigo = codigo;
+        this.email = email;
+        this.nome = nome;
+        this.endereco = new Endereco(cep, numero, complemento)
+     }
+
+    
+}
