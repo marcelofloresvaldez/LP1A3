@@ -1,8 +1,10 @@
 package aula1.exemplos;
-
 import java.util.Scanner;
 
-public class introducao {
+public class Introducao {
+    
+
+
     public static void main(String[] args) {
         //comentario de uma linha
         /*
@@ -16,9 +18,9 @@ public class introducao {
         -128 a 127
          *  ponto flutuante
          * float , double
-
-         */ float  nota1 = 9.5f;
-         double nota2 = 9.5;
+         */ 
+         double  nota1 = 9.5;
+         double  nota2 = 9.5;
          //char 
           char letra = 'a';
           boolean ligado = true;
@@ -55,13 +57,4 @@ public class introducao {
         
     }
 
-
-
-
- 
-
-    }
-    
-
-    
-
+}

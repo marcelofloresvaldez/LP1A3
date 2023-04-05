@@ -62,7 +62,7 @@ public class OrientacaoObjetos {
   //associaçao-compociçao : a parte nao existe sem o todo - ciclo de vida esta atrelado
        // Endereco e1 = new Endereco("08280630", 15, "casa 3")
        // Cliente c1 = new Cliente(45, "marcelo", "mace@", e1)
-       Cliente c1 = new (45, "marcelo", "mace@", "08280630", 15, "casa 3")
+       Cliente c1 = new (45, "marcelo", "mace@", "08280630", 15, "casa 3");
     }
 
     public static double calcularArea(double lado){

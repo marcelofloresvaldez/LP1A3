@@ -6,12 +6,18 @@ public class Cliente {
     private String email;
     private Endereco endereco;
 
-    
+     // public Cliente(int codigo, String nome, String email, Endereco endereco) {
+    //     this.codigo = codigo;
+    //     this.nome = nome;
+    //     this.email = email;
+    //     this.endereco = endereco;
+    // }
+
     public Cliente( int codigo, String nome, String email, String cep, int numero, String complemento){
         this.codigo = codigo;
         this.email = email;
         this.nome = nome;
-        this.endereco = new Endereco(cep, numero, complemento)
+        this.endereco = new Endereco(cep, numero, complemento);
      }
 
     
